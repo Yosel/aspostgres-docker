@@ -1,0 +1,8 @@
+Antes de ejecutar debe crear una llave en la maquina cliente 
+# ssh-keygen -t rsa -b 4096 -C "correo@servidor"
+
+Se generaran dos archivos
+id_rsa
+id_rsa.pub
+
+Reemplazar el archivo id_rsa.pub de esta carpeta antes de ejecutar el build
